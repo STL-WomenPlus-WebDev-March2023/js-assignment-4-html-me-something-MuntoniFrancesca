@@ -2,21 +2,18 @@
 <html>
    <head>
       <title>Francesca Muntoni - my favorite places in Sardinia</title>
+      <link rel="stylesheet" href="styles.css">
    </head>
    <body>
       <!-- Write your HTML in this file! -->
       <header>
-         <h1> SARDEGNA<br> 
-         &quot;endless island&quot; </h1>
-<h1>Ciao!</h1>
-      </header>
-      <h1>Mi chiamo Francesca and I am from Sardinia, Italy. </h1>
-      <iframe src="https://youtube.com/embed/TjyQyGr9hgI"></iframe>
-      <figcaption>Discover the beauty of Sardinia.</figcaption>
-      <h1>Where is Sardinia?</h1>
-      <img src="images/sardinia.jpg" alt="location of sardinia">
-      <h2>I'd like to talk to you about the island I am from and where my family, friends and my heart are.<br>
-      I decided to create a list of some of my favorite places to visit while there.</h2>
+      <h1 id="mainHeading">&quot;Ciao!&quot;<br> My name is Francesca and I am from Sardinia, Italy. </h1>
+   </header>
+   <div id="whereis">
+      <img id="where" src="images/sardinia.jpg" alt="location of sardinia">
+      <h2>Today I'm going to talk to you about the island I am from and where my family, friends and my heart are.<br>
+      Here a list of some of my favorite places to visit while there:</h2>
+      </div>
       <nav>
       <ol>
          <li><a href="#cagliari">Cagliari</a></li>
@@ -24,23 +21,23 @@
          <li><a href="#oristano">Oristano</a></li>
          <li><a href="#alghero">Alghero</a></li>
          <li><a href="#bosa">Bosa</a></li>
-         <li><a href="#baunei">Baunei/watch</a></li>
+         <li><a href="#baunei">Baunei</a></li>
          <li><a href="#calaluna">Cala Luna</a></li>
          <li><a href="#villasimius">Villasimius</a></li>
          <li><a href="#lamaddalena">La Maddalena</a></li>
       </ol>
-   </nav>
+      </nav>
 <article>
 <a name="cagliari"></a>
 <h2>Cagliari</h2>
 <p>
    <b>Cagliari</b> is the capital of Sardinia.<br>
    It's located about 30 minutes from Furtei, the village where I was born and raised. In Cagliari there is the university where I studied (Università degli Studi di Cagliari).<br>
-   It's such a nice city, you can walk everywhere, there are so many shops and little restaurants.<br><br>
+   It's a beautiful city, you can walk everywhere, there are so many shops and little restaurants.<br><br>
    My favorite things to do in Cagliari are:
    <ul>
       <li>eating an ice cream (pistachio is my favorite flavour) while sitting in front of the port.</li>
-      <li>drinking a cocktail at a hidden place called Biffi.</li>
+      <li>drinking a cocktail at a place called Biffi.</li>
       <li>swim in the clear waters of the Poetto beach</li>
       </ul>
 </p>
@@ -53,10 +50,10 @@
 <article>
    <a name="barumini"></a>
 <h2>Barumini</h2>
-<p>
+<p id="testP" class="funParagraph">
    <b>Barumini</b> is very close to my village. It's known for Su Nuraxi, which was declared UNESCO World Heritage Site.<br>
    It's the most impressive and the most well-preserved inheritance left to us by the Nuragic civilization.<br>
-   I visited it so many times, the history of this place is full of mistery and that's what fascinate me the most.<br>
+   I visited it so many times, the history of this place is full of mistery and that's what fascinates me the most.<br>
    If I could travel back in time I would go back to the Nuragic era.
   </p>
 <figure>
@@ -126,7 +123,7 @@
    <a name="calaluna"></a>
 <h2>Cala Luna</h2>
 <p>
-   <b>Cala Luna</b> is beautiful, you can go there by boat or by hiking.
+   <b>Cala Luna</b> is beautiful, you can go there by boat or hiking.
 </p>
 <figure>
    <img src="images/calaluna.jpg" alt="Cala Luna">
@@ -176,11 +173,14 @@
 <option value="Cala Luna">Cala Luna</option>
 <option value="Villasimius">Villasimius</option>
 <option value="La Maddalena">La Maddalena</option>
-
 </select>
 <button type="button" onclick="alert('Great Choice!')">Submit!</button>
 </form>
-
+<div id="video">
+   <iframe src="https://youtube.com/embed/TjyQyGr9hgI"></iframe>
+   <figcaption>Discover the beauty of Sardinia.</figcaption>
+   <a href="https://www.sardegnaturismo.it/en">Would you like to know more about Sardinia?</a>
+</div>
 
 </main>
 <footer>
