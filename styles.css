@@ -1,1 +1,54 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    padding: 30px;
+    display: block;
+    background-color: rgb(237, 244, 222);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+
+#mainHeading {
+    color: red;
+    text-align: center;
+}
+
+nav ol {
+    text-align: center;
+}
+
+nav ol li {
+    display: inline-block;
+    margin-right: 1em ;
+    font-size: 1em;
+}
+
+.funParagraph {
+  color: green;  
+}
+
+figcaption {
+    font-style: italic;
+}
+
+#where {
+    margin: auto;
+    width: 20%;
+}
+
+#whereis {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+form {
+    margin-top: 5% ;
+    font-size: 20px;
+}
+
+h2 {
+    margin-top: 70px;
+}
